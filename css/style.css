@@ -1,0 +1,141 @@
+h1, h2 {
+    color:#20a8b4;
+}
+
+h3 {
+    color: black
+}
+
+.special-word {
+    color: #ff5c0f;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header  {
+    display:flex;
+    flex-direction: column;
+    background:#f2f2f2;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    justify-content: space-between;
+    align-items: left;
+    padding: 0px
+ }
+body  {
+    background-color:#white ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400
+    font-size: 16px;
+    color: black
+ }
+
+ .navbar li {
+    display: flex;
+    padding: 5px;
+}
+
+.navbar li a {
+    transition: all 0.0s ease 0s;
+    text-decoration: none;
+    color: black
+}
+
+.navbar li a:hover {
+    color: #ff5c0f
+}
+
+.button{
+    margin: 0 auto;
+    background-color:#20a8b4;
+	border-radius:10px;
+	display:center;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Roboto";
+	font-size:14px;
+	font-weight:bold;
+    padding:12px;
+    text-align: center;
+    text-decoration:none;
+    display:block;
+
+}
+
+.button:hover{
+    background-color:#ff5c0f;
+	border-radius:10px;
+	display:center;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Roboto";
+	font-size:14px;
+	font-weight:bold;
+    padding:12px;
+    text-align: center;
+    text-decoration:none;
+    display:block;
+    margin: 0 auto;
+}
+.image {
+    display: none;
+    float: right;
+}
+
+@media only screen and (min-width:768px) {
+.learnmore {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        justify-content: left;
+        align-content: center;
+        align-items: center;
+        padding: 12px;
+
+    }
+     
+
+
+        }
+@media only screen and (min-width:768px) {
+    ul  {
+        display: flex;
+        flex-direction: row;
+        background:#f2f2f2;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+        .image {
+            display: flex;
+            margin-left: 650px;
+            margin-top: 125px;
+             margin-right: 35px;
+        }
+        .desktop {
+                position: absolute;
+                margin-top: 250px;
+                margin-left: 100px;
+        }
+        .deskrow {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+
+          }
+  
+
+
+    
